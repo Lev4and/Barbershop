@@ -29,14 +29,15 @@
 }
 .form-block .form-block-row-column-label{
     display: flex;
-    font-size: larger;
-    font-family: Arial;
     vertical-align: middle;
     flex-direction: inherit;
 }
 .form-block .form-block-row-column-label label{
-    margin: auto;
     width: 100%;
+    margin: auto;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Arial;
 }
 .form-block .form-block-row-column-label,
 .form-block .form-block-row-column-input-text,

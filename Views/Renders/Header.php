@@ -42,6 +42,9 @@
                         <img src='<?php echo isset($_SESSION["user"]["avatar"]) ? "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Upload/" . $_SESSION["user"]["avatar"] : "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Avatars/DefaultAvatar.jpg"; ?>'>
                     </div>
                     <ul>
+                        <?php if(Access::isClient()): ?>
+                            <li><a href="#">Мои записи</a></li>
+                        <?php endif; ?>
                         <li><a href="#">Профиль</a></li>
                         <li onclick="onClickExit();"><a href="#">Выход</a></li>
                     </ul>

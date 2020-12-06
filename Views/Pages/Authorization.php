@@ -28,7 +28,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
                         <div class="form-block-row">
                             <div id="form-block-row-column-label" class="form-block-row-column">
                                 <div class="form-block-row-column-label">
-                                    <label><b>Введите логин:</b></label>
+                                    <label>Введите логин:</label>
                                 </div>
                             </div>
                             <div id="form-block-row-column-input" class="form-block-row-column">
@@ -40,7 +40,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
                         <div class="form-block-row">
                             <div id="form-block-row-column-label" class="form-block-row-column">
                                 <div class="form-block-row-column-label">
-                                    <label><b>Введите пароль:</b></label>
+                                    <label>Введите пароль:</label>
                                 </div>
                             </div>
                             <div id="form-block-row-column-input" class="form-block-row-column">
@@ -55,7 +55,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
                             <input class="action-button" id="login-button" type="submit" name="action" value="Авторизоваться"/>
                         </div>
                         <div class="form-block-actions-link">
-                            <a class="link" href="#">Нет аккаунта?</a>
+                            <a class="link" href="Registration.php">Нет аккаунта?</a>
                         </div>
                     </div>
                 </form>

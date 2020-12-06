@@ -9,6 +9,10 @@ class Access
         return isset($_SESSION["user"]) && count($_SESSION["user"]) > 0 && $_SESSION["user"]["role_name"] == "Администратор";
     }
 
+    public static function isClient(){
+        return isset($_SESSION["user"]) && count($_SESSION["user"]) > 0 && $_SESSION["user"]["role_name"] == "Клиент";
+    }
+
     public static function denyAuthorization(){
         VisibleError::show("Вы уже авторизованы.");
     }
