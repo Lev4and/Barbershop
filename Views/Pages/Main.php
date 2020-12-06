@@ -1,4 +1,8 @@
-<?php session_start(); ?>
+<?php
+session_start();
+
+require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +11,14 @@
     <link rel="icon" href="/Resources/Images/Icons/Logo.png">
     <link rel="stylesheet" href="/CSS/Pages/Main.css">
     <link rel="stylesheet" href="/CSS/Templates/Header.css">
+    <script src="/JS/XmlHttp.js"></script>
+    <script src="/JS/Header.js"></script>
 </head>
 <body>
 <div class="main">
     <?php include $_SERVER["DOCUMENT_ROOT"] . "/Views/Renders/Header.php"; ?>
     <div class="content">
-        
+
     </div>
 </div>
 </body>

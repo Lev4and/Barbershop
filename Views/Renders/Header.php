@@ -9,23 +9,29 @@
             </div>
         </div>
         <div class="header-content-sections">
-            <div class="header-content-section">
-                <a href="#"><b>Барберы</b></a>
-            </div>
-            <div class="header-content-section">
-                <a href="#"><b>Услуги</b></a>
-            </div>
-            <div class="header-content-section">
-                <a href="#"><b>Контакты</b></a>
-            </div>
-        </div>
-        <div class="header-content-phone-number">
-            <b>+7 (919) 319-58-58</b>
+            <?php if(Access::isAdministrator()): ?>
+                <div id="header-content-section-database" class="header-content-section">
+                    <a href="#"><b>База данных</b></a>
+                </div>
+            <?php else: ?>
+                <div class="header-content-section">
+                    <a href="#"><b>Барберы</b></a>
+                </div>
+                <div class="header-content-section">
+                    <a href="#"><b>Услуги</b></a>
+                </div>
+                <div class="header-content-section">
+                    <a href="#"><b>Записаться</b></a>
+                </div>
+                <div class="header-content-section">
+                    <a href="#"><b>Контакты</b></a>
+                </div>
+            <?php endif; ?>
         </div>
         <div class="header-content-user-block">
-            <?php if(!isset($_SESSION["user"]) || count($_SESSION["user"]) == 0): ?>
+            <?php if(!Access::isAuthorized()): ?>
                 <div class="header-content-login">
-                    <a href="../../?action=Login"><button><b>Войти</b></button></a>
+                    <a href="../../Views/Pages/Authorization.php"><button>Войти</button></a>
                 </div>
             <?php else: ?>
                 <div class="header-content-user-information">
@@ -33,11 +39,11 @@
                         <b><?php echo $_SESSION["user"]["login"]; ?></b>
                     </div>
                     <div class="header-content-user-avatar">
-                        <img src='/Resources/Images/Upload/ <?php echo isset($_SESSION["user"]["avatar"]) ? $_SESSION["user"]["avatar"] : "/Resources/Images/Avatars/DefaultAvatar.jpg" ?>'>
+                        <img src='<?php echo isset($_SESSION["user"]["avatar"]) ? "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Upload/" . $_SESSION["user"]["avatar"] : "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Avatars/DefaultAvatar.jpg"; ?>'>
                     </div>
                     <ul>
                         <li><a href="#">Профиль</a></li>
-                        <li><a href="../../?action=Exit">Выход</a></li>
+                        <li onclick="onClickExit();"><a href="#">Выход</a></li>
                     </ul>
                 </div>
             <?php endif; ?>
