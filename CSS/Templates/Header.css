@@ -1,0 +1,129 @@
+.header{
+    top: 0;
+    min-height: 2em;
+    position: sticky;
+    font-size: larger;
+    font-family: Arial;
+}
+.header .header-content{
+    height: 70px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: row;
+    border: solid black 1px;
+    justify-content: space-between;
+}
+.header .header-content .header-content-logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header .header-content .header-content-logo .header-content-logo-container{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    max-width: 20%;
+    max-height: 100%;
+    vertical-align: middle;
+    justify-content: inherit;
+}
+.header .header-content .header-content-logo .header-content-logo-container a{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+.header .header-content .header-content-logo .header-content-logo-container img{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.header .header-content .header-content-logo .header-content-logo-name{
+    height: 100%;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    justify-content: inherit;
+}
+.header .header-content .header-content-logo .header-content-logo-name a{
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    text-decoration: none;
+    vertical-align: middle;
+    justify-content: inherit;
+}
+.header .header-content .header-content-logo .header-content-logo-name b{
+    color: black;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: larger;
+    font-family: Arial;
+}
+.header .header-content .header-content-sections{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header .header-content .header-content-sections .header-content-section{
+    height: 100%;
+    display: flex;
+    max-height: 100%;
+    vertical-align: middle;
+    justify-content: inherit;
+}
+.header .header-content .header-content-sections .header-content-section a{
+    color: black;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    text-decoration: none;
+}
+.header .header-content .header-content-sections .header-content-section a:hover{
+    color: red;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+}
+.header .header-content .header-content-phone-number{
+    height: 100%;
+    display: flex;
+    max-height: 100%;
+    vertical-align: middle;
+    justify-content: inherit;
+}
+.header .header-content .header-content-phone-number b{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.header .header-content .header-content-user-block{
+    height: 100%;
+    display: flex;
+    max-height: 100%;
+    vertical-align: middle;
+}
+.header .header-content .header-content-user-block .header-content-login{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.header .header-content .header-content-user-block .header-content-login button{
+    color: black;
+    font-size: larger;
+    font-family: Arial;
+    border: solid black 1px;
+    background-color: yellow;
+}

@@ -1,0 +1,12 @@
+body{
+    margin: 0 auto;
+}
+.main{
+    margin: 0 auto;
+}
+.content{
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 1000px;
+    padding-bottom: 30px;
+}
