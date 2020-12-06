@@ -12,6 +12,12 @@
             <?php if(Access::isAdministrator()): ?>
                 <div id="header-content-section-database" class="header-content-section">
                     <a href="#"><b>База данных</b></a>
+                    <ul>
+                        <li><a href="#">Категории услуг</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Барберы</a></li>
+                        <li><a href="#">Пользователи</a></li>
+                    </ul>
                 </div>
             <?php else: ?>
                 <div class="header-content-section">
