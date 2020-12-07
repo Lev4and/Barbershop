@@ -11,8 +11,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
     <link rel="icon" href="/Resources/Images/Icons/Logo.png">
     <link rel="stylesheet" href="/CSS/Pages/Main.css">
     <link rel="stylesheet" href="/CSS/Pages/Authorization.css">
-    <link rel="stylesheet" href="/CSS/Templates/Header.css">
     <link rel="stylesheet" href="/CSS/Elements/Form.css">
+    <link rel="stylesheet" href="/CSS/Templates/Header.css">
+    <link rel="stylesheet" href="/CSS/Templates/Footer.css">
 </head>
 <body>
 <div class="main">
@@ -62,6 +63,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
             </div>
         <?php endif; ?>
     </div>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/Views/Renders/Footer.php"; ?>
     <?php Access::isAuthorized() ? Access::denyAuthorization() : VisibleError::show(); ?>
 </div>
 </body>

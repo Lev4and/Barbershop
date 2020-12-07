@@ -30,7 +30,7 @@
                     <a href="#"><b>Записаться</b></a>
                 </div>
                 <div class="header-content-section">
-                    <a href="#"><b>Контакты</b></a>
+                    <a href="#contacts"><b>Контакты</b></a>
                 </div>
             <?php endif; ?>
         </div>

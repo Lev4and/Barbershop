@@ -11,7 +11,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
     <link rel="icon" href="/Resources/Images/Icons/Logo.png">
     <link rel="stylesheet" href="/CSS/Pages/Main.css">
     <link rel="stylesheet" href="/CSS/Templates/Header.css">
+    <link rel="stylesheet" href="/CSS/Templates/Footer.css">
     <script src="/JS/XmlHttp.js"></script>
+    <script src="/JS/JQuery.js"></script>
     <script src="/JS/Header.js"></script>
 </head>
 <body>
@@ -20,6 +22,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
     <div class="content">
 
     </div>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/Views/Renders/Footer.php"; ?>
 </div>
 </body>
 </html>
