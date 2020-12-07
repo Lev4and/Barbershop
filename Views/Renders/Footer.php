@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <span>© 2020 Barbershop by <a href="#">Alberkaz</a>.</span>
+            <span>© 2020 Barbershop by <a href="https://vk.com/alberkaz">Alberkaz</a>.</span>
         </div>
     </div>
 </footer>

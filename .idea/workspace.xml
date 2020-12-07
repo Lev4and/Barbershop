@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3348759-53bc-49cd-ae7d-b89a76e66e53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Images/Upload/gwVp8dd-QBI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/Pages/Policy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/Ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Policy.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/Header.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Pages/Main.php" afterPath="$PROJECT_DIR$/Views/Pages/Main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Renders/Footer.php" afterPath="$PROJECT_DIR$/Views/Renders/Footer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Policy.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Views/Pages/Policy.php">
+      <file leaf-file-name="Footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/Renders/Footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="234" column="212" lean-forward="false" selection-start-line="234" selection-start-column="212" selection-end-line="234" selection-end-column="212" />
+            <state relative-caret-position="523">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -80,8 +73,8 @@
         <option value="$PROJECT_DIR$/JS/Ajax.js" />
         <option value="$PROJECT_DIR$/Views/Pages/Policy.html" />
         <option value="$PROJECT_DIR$/CSS/Pages/Policy.css" />
-        <option value="$PROJECT_DIR$/Views/Renders/Footer.php" />
         <option value="$PROJECT_DIR$/Views/Pages/Policy.php" />
+        <option value="$PROJECT_DIR$/Views/Renders/Footer.php" />
       </list>
     </option>
   </component>
@@ -443,12 +436,12 @@
       <workItem from="1607178736148" duration="4193000" />
       <workItem from="1607236839559" duration="25257000" />
       <workItem from="1607309986434" duration="4063000" />
-      <workItem from="1607346704078" duration="9876000" />
+      <workItem from="1607346704078" duration="10105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43389000" />
+    <option name="totallyTimeSpent" value="43618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -488,9 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <marker date="1607359293024" expanded="true" signature="3172:3417" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -522,9 +513,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1607359293024" expanded="true" signature="3172:3417" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,20 +750,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Renders/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-          <folding>
-            <marker date="1607359293024" expanded="true" signature="3172:3417" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/Pages/Policy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="234" column="212" lean-forward="false" selection-start-line="234" selection-start-column="212" selection-end-line="234" selection-end-column="212" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Renders/Footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding />
         </state>
       </provider>
