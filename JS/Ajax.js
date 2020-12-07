@@ -7,8 +7,8 @@ function onClickExit() {
     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     request.addEventListener("readystatechange", () => {
         if(request.readyState === 4 && request.status === 200){
-        console.log(request.responseText)}
-});
+            console.log(request.responseText)}
+    });
     request.send(params);
 
     window.location = "";

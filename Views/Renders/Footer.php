@@ -16,7 +16,7 @@
                     <div class="footer-middle-section-links">
                         <span>Клиентам</span>
                         <ul>
-                            <li><a href="#">Политика конфиденциальности</a></li>
+                            <li><a href="<?php echo  "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Policy.php";  ?>">Политика конфиденциальности</a></li>
                         </ul>
                     </div>
                 </div>
@@ -40,12 +40,12 @@
                     </div>
                     <div class="footer-middle-section-contacts-mailing">
                         <span>Рассылка о новостях и акциях:</span>
-                        <form class="footer-middle-section-contacts-mailing-form">
+                        <form id="footer-middle-section-contacts-mailing-form" class="footer-middle-section-contacts-mailing-form" method="post">
                             <div class="footer-middle-section-contacts-mailing-form-input-container">
                                 <input class="footer-middle-section-contacts-mailing-email" placeholder="Введите email и подпшитесь">
                             </div>
                             <div class="footer-middle-section-contacts-mailing-form-icon-button-container">
-                                <span class="footer-middle-section-contacts-mailing-email-icon-button"><a href="#">❯</a></span>
+                                <span class="footer-middle-section-contacts-mailing-email-icon-button"><a>❯</a></span>
                             </div>
                         </form>
                     </div>
