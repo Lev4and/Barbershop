@@ -1,6 +1,6 @@
 function onClickExit() {
     const request = getXmlHttp();
-    const url = "";
+    const url = "/Index.php";
     const params = "action=Выход";
 
     request.open("POST", url, true);
