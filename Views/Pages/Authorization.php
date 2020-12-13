@@ -14,6 +14,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/Logic/Main.php";
     <link rel="stylesheet" href="/CSS/Elements/Form.css">
     <link rel="stylesheet" href="/CSS/Templates/Header.css">
     <link rel="stylesheet" href="/CSS/Templates/Footer.css">
+    <script src="/JS/XmlHttp.js"></script>
+    <script src="/JS/JQuery.js"></script>
+    <script src="/JS/Ajax.js"></script>
 </head>
 <body>
 <div class="main">

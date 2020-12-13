@@ -7,7 +7,7 @@ class VisibleError
         }
 
         if(isset($_SESSION["error"]) && iconv_strlen($_SESSION["error"], "UTF-8") > 0){
-            echo(printf('<script>alert("%s");</script>', $_SESSION["error"]));
+            printf('<script>alert("%s");</script>', $_SESSION["error"]);
         }
 
         $_SESSION["error"] = "";

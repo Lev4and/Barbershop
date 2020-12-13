@@ -4,6 +4,7 @@
     position: sticky;
     font-size: larger;
     font-family: Arial;
+    background-color: #ffb73b;
 }
 .header .header-content{
     height: 70px;
@@ -113,6 +114,7 @@
     vertical-align: middle;
     border: 1px solid black;
     flex-direction: inherit;
+    background-color: greenyellow;
 }
 .header .header-content .header-content-sections #header-content-section-database ul li:hover{
     background-color: yellow;
@@ -221,6 +223,7 @@
     vertical-align: middle;
     border: 1px solid black;
     flex-direction: inherit;
+    background-color: greenyellow;
 }
 .header .header-content .header-content-user-block .header-content-user-information ul li:hover{
     background-color: yellow;

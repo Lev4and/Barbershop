@@ -38,6 +38,7 @@
     font-weight: bold;
     font-size: larger;
     font-family: Arial;
+    text-align: center;
 }
 .form-block .form-block-row-column-label,
 .form-block .form-block-row-column-input-text,

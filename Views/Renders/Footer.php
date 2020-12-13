@@ -3,7 +3,7 @@
         <div class="footer-top">
             <div class="footer-top-logo">
                 <div class="footer-top-logo-container">
-                    <img src="../../Resources/Images/Icons/Logo.png">
+                    <img src="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Icons/Logo.png"; ?>">
                 </div>
                 <div class="footer-top-logo-name">
                     <b>Barbershop</b>
@@ -25,16 +25,16 @@
                         <span><a name="contacts">Контакты</a></span>
                         <div class="footer-middle-section-contacts-links">
                             <div class="footer-middle-section-contacts-link">
-                                <img src="/Resources/Images/Interface/VK.png">
+                                <img src="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Interface/VK.png"; ?>">
                             </div>
                             <div class="footer-middle-section-contacts-link">
-                                <img src="/Resources/Images/Interface/YouTube.png">
+                                <img src="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Interface/YouTube.png"; ?>">
                             </div>
                             <div class="footer-middle-section-contacts-link">
-                                <img src="/Resources/Images/Interface/Instagram.png">
+                                <img src="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Interface/Instagram.png"; ?>">
                             </div>
                             <div class="footer-middle-section-contacts-link">
-                                <img src="/Resources/Images/Interface/Telegram.png">
+                                <img src="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Interface/Telegram.png"; ?>">
                             </div>
                         </div>
                     </div>

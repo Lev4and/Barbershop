@@ -2,10 +2,10 @@
     <div class="header-content">
         <div class="header-content-logo">
             <div class="header-content-logo-container">
-                <a href="../../"><img src="../../Resources/Images/Icons/Logo.png"></a>
+                <a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/"; ?>"><img src="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Resources/Images/Icons/Logo.png"; ?>"></a>
             </div>
             <div class="header-content-logo-name">
-                <a href="../../"><b>Barbershop</b></a>
+                <a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/"; ?>"><b>Barbershop</b></a>
             </div>
         </div>
         <div class="header-content-sections">
@@ -13,7 +13,7 @@
                 <div id="header-content-section-database" class="header-content-section">
                     <a href="#"><b>База данных</b></a>
                     <ul>
-                        <li><a href="#">Категории услуг</a></li>
+                        <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/CategoryService/"; ?>">Категории услуг</a></li>
                         <li><a href="#">Услуги</a></li>
                         <li><a href="#">Барберы</a></li>
                         <li><a href="#">Пользователи</a></li>
@@ -37,7 +37,7 @@
         <div class="header-content-user-block">
             <?php if(!Access::isAuthorized()): ?>
                 <div class="header-content-login">
-                    <a href="../../Views/Pages/Authorization.php"><button>Войти</button></a>
+                    <a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Authorization.php"; ?>"><button>Войти</button></a>
                 </div>
             <?php else: ?>
                 <div class="header-content-user-information">

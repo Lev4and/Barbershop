@@ -37,6 +37,30 @@ class QueryExecutor
         return $this->executeQuery("SELECT * FROM role");
     }
 
+    public function getCategoriesService(){
+        return $this->executeQuery("SELECT * FROM category");
+    }
+
+    public function containsCategoryService($name){
+        return !is_null($this->executeQuery("SELECT * FROM category WHERE name='$name' LIMIT 1")[0]);
+    }
+
+    public function addCategoryService($name){
+        $this->executeQuery("INSERT INTO category (name) VALUES ('$name')");
+    }
+
+    public function getCategoryService($id){
+        return $this->executeQuery("SELECT * FROM category WHERE id=$id LIMIT 1")[0];
+    }
+
+    public function updateCategoryService($id, $name){
+        $this->executeQuery("UPDATE category SET name='$name' WHERE id=$id");
+    }
+
+    public function removeCategoryService($id){
+        $this->executeQuery("DELETE FROM category WHERE id=$id");
+    }
+
     private function executeQuery($query){
         try{
             return ($this->contextDb->query($query))->FETCHALL(PDO::FETCH_ASSOC);
