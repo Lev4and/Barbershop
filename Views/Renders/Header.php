@@ -14,9 +14,9 @@
                     <a href="#"><b>База данных</b></a>
                     <ul>
                         <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/CategoryService/"; ?>">Категории услуг</a></li>
+                        <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/Duration/"; ?>">Длительность оказания услуг</a></li>
                         <li><a href="#">Услуги</a></li>
                         <li><a href="#">Барберы</a></li>
-                        <li><a href="#">Пользователи</a></li>
                     </ul>
                 </div>
             <?php else: ?>

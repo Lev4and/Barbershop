@@ -61,6 +61,30 @@ class QueryExecutor
         $this->executeQuery("DELETE FROM category WHERE id=$id");
     }
 
+    public function getDurations(){
+        return $this->executeQuery("SELECT * FROM duration");
+    }
+
+    public function containsDuration($value){
+        return !is_null($this->executeQuery("SELECT * FROM duration WHERE value='$value' LIMIT 1")[0]);
+    }
+
+    public function addDuration($value){
+        $this->executeQuery("INSERT INTO duration (value) VALUES ('$value')");
+    }
+
+    public function getDuration($id){
+        return $this->executeQuery("SELECT * FROM duration WHERE id='$id' LIMIT 1")[0];
+    }
+
+    public function updateDuration($id, $value){
+        $this->executeQuery("UPDATE duration SET value='$value' WHERE id=$id");
+    }
+
+    public function removeDuration($id){
+        $this->executeQuery("DELETE FROM duration WHERE id=$id");
+    }
+
     private function executeQuery($query){
         try{
             return ($this->contextDb->query($query))->FETCHALL(PDO::FETCH_ASSOC);

@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3348759-53bc-49cd-ae7d-b89a76e66e53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Images/Interface/Change.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Images/Interface/Remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/Elements/Table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/Pages/AddCategoryService.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/Pages/CategoriesService.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/Pages/EditCategoryService.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/AddCategoryService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/CategoriesService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/EditCategoryService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Renders/TableCategoriesService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/Pages/AddDuration.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/Pages/Durations.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/Pages/EditDuration.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/Duration/AddDuration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/Duration/Durations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/Duration/EditDuration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/Duration/Index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Renders/TableDurations.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/Elements/Form.css" afterPath="$PROJECT_DIR$/CSS/Elements/Form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/Templates/Header.css" afterPath="$PROJECT_DIR$/CSS/Templates/Header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logic/Database/QueryExecutor.php" afterPath="$PROJECT_DIR$/Logic/Database/QueryExecutor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logic/Managers/VisibleError.php" afterPath="$PROJECT_DIR$/Logic/Managers/VisibleError.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Pages/Authorization.php" afterPath="$PROJECT_DIR$/Views/Pages/Authorization.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Pages/Registration.php" afterPath="$PROJECT_DIR$/Views/Pages/Registration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Renders/Footer.php" afterPath="$PROJECT_DIR$/Views/Renders/Footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/Index.php" afterPath="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/Index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Renders/Header.php" afterPath="$PROJECT_DIR$/Views/Renders/Header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,6 +25,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/Duration/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="70" lean-forward="false" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddDuration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/Duration/AddDuration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="57" column="6" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="57" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AddCategoryService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/AddCategoryService.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,71 +55,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="54" column="23" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="54" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoriesService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/CategoriesService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableCategoriesService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/Renders/TableCategoriesService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="94" lean-forward="false" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QueryExecutor.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Logic/Database/QueryExecutor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+            <state relative-caret-position="409">
+              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
               <folding>
-                <marker date="1607847756887" expanded="true" signature="502:574" ph="SELECT * FRO... v_user" />
-                <marker date="1607847756887" expanded="true" signature="662:711" ph="SELECT * FRO... v_user" />
-                <marker date="1607847756887" expanded="true" signature="812:859" ph="SELECT * FRO... user" />
-                <marker date="1607847756887" expanded="true" signature="965:1047" ph="INSERT INTO user... " />
-                <marker date="1607847756887" expanded="true" signature="1126:1144" ph="SELECT * FRO... role" />
-                <marker date="1607847756887" expanded="true" signature="1235:1257" ph="SELECT * FRO... category" />
-                <marker date="1607847756887" expanded="true" signature="1365:1406" ph="SELECT * FRO... category" />
-                <marker date="1607847756887" expanded="true" signature="1365:1414" ph="SELECT * FRO... category" />
-                <marker date="1607847756887" expanded="true" signature="1505:1532" ph="INSERT INTO category... " />
-                <marker date="1607847756887" expanded="true" signature="1505:1549" ph="INSERT INTO category... " />
-                <marker date="1607847756887" expanded="true" signature="1641:1673" ph="SELECT * FRO... category" />
-                <marker date="1607847756887" expanded="true" signature="1641:1674" ph="SELECT * FRO... category" />
-                <marker date="1607847756887" expanded="true" signature="1641:1684" ph="SELECT * FRO... category" />
-                <marker date="1607847756887" expanded="true" signature="1782:1814" ph="UPDATE categ... " />
-                <marker date="1607847756887" expanded="true" signature="1782:1824" ph="UPDATE categ... " />
-                <marker date="1607847756887" expanded="true" signature="1782:1825" ph="UPDATE categ... " />
-                <marker date="1607847756887" expanded="true" signature="1915:1945" ph="DELETE FROM " />
-                <marker date="1607847756887" expanded="true" signature="1915:1946" ph="DELETE FROM " />
+                <marker date="1607850629710" expanded="true" signature="502:574" ph="SELECT * FRO... v_user" />
+                <marker date="1607850629710" expanded="true" signature="662:711" ph="SELECT * FRO... v_user" />
+                <marker date="1607850629710" expanded="true" signature="812:859" ph="SELECT * FRO... user" />
+                <marker date="1607850629710" expanded="true" signature="965:1047" ph="INSERT INTO user... " />
+                <marker date="1607850629710" expanded="true" signature="1126:1144" ph="SELECT * FRO... role" />
+                <marker date="1607850629710" expanded="true" signature="1235:1257" ph="SELECT * FRO... category" />
+                <marker date="1607850629710" expanded="true" signature="1365:1406" ph="SELECT * FRO... category" />
+                <marker date="1607850629710" expanded="true" signature="1365:1414" ph="SELECT * FRO... category" />
+                <marker date="1607850629710" expanded="true" signature="1505:1532" ph="INSERT INTO category... " />
+                <marker date="1607850629710" expanded="true" signature="1505:1549" ph="INSERT INTO category... " />
+                <marker date="1607850629710" expanded="true" signature="1641:1673" ph="SELECT * FRO... category" />
+                <marker date="1607850629710" expanded="true" signature="1641:1674" ph="SELECT * FRO... category" />
+                <marker date="1607850629710" expanded="true" signature="1641:1684" ph="SELECT * FRO... category" />
+                <marker date="1607850629710" expanded="true" signature="1782:1814" ph="UPDATE categ... " />
+                <marker date="1607850629710" expanded="true" signature="1782:1824" ph="UPDATE categ... " />
+                <marker date="1607850629710" expanded="true" signature="1782:1825" ph="UPDATE categ... " />
+                <marker date="1607850629710" expanded="true" signature="1915:1945" ph="DELETE FROM " />
+                <marker date="1607850629710" expanded="true" signature="1915:1946" ph="DELETE FROM " />
+                <marker date="1607850629710" expanded="true" signature="2031:2053" ph="SELECT * FRO... duration" />
+                <marker date="1607850629710" expanded="true" signature="2155:2184" ph="SELECT * FRO... duration" />
+                <marker date="1607850629710" expanded="true" signature="2155:2198" ph="SELECT * FRO... duration" />
+                <marker date="1607850629710" expanded="true" signature="2155:2206" ph="SELECT * FRO... duration" />
+                <marker date="1607850629710" expanded="true" signature="2291:2337" ph="INSERT INTO duration... " />
+                <marker date="1607850629710" expanded="true" signature="2422:2459" ph="SELECT * FRO... duration" />
+                <marker date="1607850629710" expanded="true" signature="2422:2467" ph="SELECT * FRO... duration" />
+                <marker date="1607850629710" expanded="true" signature="2559:2603" ph="UPDATE durat... " />
+                <marker date="1607850629710" expanded="true" signature="2559:2604" ph="UPDATE durat... " />
+                <marker date="1607850629710" expanded="true" signature="2687:2717" ph="DELETE FROM " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditDuration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/Duration/EditDuration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,15 +107,15 @@
       <file leaf-file-name="EditCategoryService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/EditCategoryService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="303">
+              <caret line="43" column="226" lean-forward="true" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="226" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditCategoryService.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/Pages/EditCategoryService.css">
+      <file leaf-file-name="EditDuration.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/Pages/EditDuration.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -132,21 +124,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Authorization.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/Pages/Authorization.php">
+      <file leaf-file-name="AddDuration.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/Pages/AddDuration.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="69" column="4" lean-forward="false" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="89" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Policy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/Pages/Policy.php">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="245" column="24" lean-forward="true" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+            <state relative-caret-position="1773">
+              <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -176,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Views/Pages/Main.html" />
-        <option value="$PROJECT_DIR$/Views/Renders/Header.css" />
         <option value="$PROJECT_DIR$/Views/Pages/Authorization.html" />
         <option value="$PROJECT_DIR$/CSS/Pages/Authorization.css" />
         <option value="$PROJECT_DIR$/CSS/Pages/Main.css" />
@@ -207,16 +197,28 @@
         <option value="$PROJECT_DIR$/Views/Pages/Registration.php" />
         <option value="$PROJECT_DIR$/Views/Pages/Administrator/CategoriesService/CategoriesService.php" />
         <option value="$PROJECT_DIR$/Logic/Managers/VisibleError.php" />
-        <option value="$PROJECT_DIR$/Views/Renders/Header.php" />
         <option value="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/AddCategoryService.html" />
         <option value="$PROJECT_DIR$/CSS/Pages/AddCategoryService.css" />
-        <option value="$PROJECT_DIR$/CSS/Elements/Form.css" />
         <option value="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/AddCategoryService.php" />
         <option value="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/EditCategoryService.html" />
         <option value="$PROJECT_DIR$/CSS/Pages/EditCategoryService.css" />
         <option value="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/EditCategoryService.php" />
-        <option value="$PROJECT_DIR$/Logic/Database/QueryExecutor.php" />
+        <option value="$PROJECT_DIR$/Views/Pages/Administrator/Service/Index.php" />
+        <option value="$PROJECT_DIR$/Views/Renders/Header.php" />
+        <option value="$PROJECT_DIR$/Views/Renders/TableDurations.php" />
+        <option value="$PROJECT_DIR$/Views/Pages/Administrator/Duration/Durations.html" />
+        <option value="$PROJECT_DIR$/CSS/Pages/Durations.css" />
+        <option value="$PROJECT_DIR$/Views/Pages/Administrator/Duration/Durations.php" />
+        <option value="$PROJECT_DIR$/Views/Pages/Administrator/Duration/AddDuration.html" />
+        <option value="$PROJECT_DIR$/CSS/Pages/AddDuration.css" />
+        <option value="$PROJECT_DIR$/Views/Pages/Administrator/Duration/AddDuration.php" />
+        <option value="$PROJECT_DIR$/Views/Pages/Administrator/Duration/EditDuration.html" />
+        <option value="$PROJECT_DIR$/CSS/Pages/EditDuration.css" />
+        <option value="$PROJECT_DIR$/CSS/Elements/Form.css" />
         <option value="$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/Index.php" />
+        <option value="$PROJECT_DIR$/Views/Pages/Administrator/Duration/EditDuration.php" />
+        <option value="$PROJECT_DIR$/Logic/Database/QueryExecutor.php" />
+        <option value="$PROJECT_DIR$/Views/Pages/Administrator/Duration/Index.php" />
       </list>
     </option>
   </component>
@@ -299,6 +301,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Barbershop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Barbershop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Administrator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duration" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -615,12 +643,12 @@
       <workItem from="1607506830611" duration="770000" />
       <workItem from="1607521187165" duration="5550000" />
       <workItem from="1607571158328" duration="3458000" />
-      <workItem from="1607842831487" duration="4921000" />
+      <workItem from="1607842831487" duration="7791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65377000" />
+    <option name="totallyTimeSpent" value="68247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -656,80 +684,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Views/Renders/Header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Renders/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <marker date="1607437114516" expanded="true" signature="788:829" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Pages/Authorization.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="67" column="6" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="67" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Pages/CategoriesService.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Renders/TableCategoriesService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Renders/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <marker date="1607437114516" expanded="true" signature="788:829" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Renders/Header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Templates/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3124">
-          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="145" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Templates/Footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2288">
@@ -923,22 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Renders/Header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Elements/Form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Templates/Footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2195">
@@ -965,10 +903,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Pages/Policy.php">
+    <entry file="file://$PROJECT_DIR$/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="245" column="24" lean-forward="true" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+        <state relative-caret-position="655">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="54" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Pages/EditCategoryService.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -981,7 +927,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Pages/EditCategoryService.css">
+    <entry file="file://$PROJECT_DIR$/Views/Pages/Policy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="245" column="24" lean-forward="true" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/Service/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Renders/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Renders/TableCategoriesService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Renders/TableDurations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Pages/Durations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/CategoriesService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/Duration/Durations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Pages/AddDuration.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -997,69 +1007,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
+    <entry file="file://$PROJECT_DIR$/CSS/Pages/EditDuration.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="54" column="23" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="54" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/CategoriesService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Renders/TableCategoriesService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="94" lean-forward="false" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="94" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/EditCategoryService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="303">
+          <caret line="43" column="226" lean-forward="true" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="226" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/Duration/AddDuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="57" column="6" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="57" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Elements/Form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/Duration/EditDuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Logic/Database/QueryExecutor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+        <state relative-caret-position="409">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
           <folding>
-            <marker date="1607847756887" expanded="true" signature="502:574" ph="SELECT * FRO... v_user" />
-            <marker date="1607847756887" expanded="true" signature="662:711" ph="SELECT * FRO... v_user" />
-            <marker date="1607847756887" expanded="true" signature="812:859" ph="SELECT * FRO... user" />
-            <marker date="1607847756887" expanded="true" signature="965:1047" ph="INSERT INTO user... " />
-            <marker date="1607847756887" expanded="true" signature="1126:1144" ph="SELECT * FRO... role" />
-            <marker date="1607847756887" expanded="true" signature="1235:1257" ph="SELECT * FRO... category" />
-            <marker date="1607847756887" expanded="true" signature="1365:1406" ph="SELECT * FRO... category" />
-            <marker date="1607847756887" expanded="true" signature="1365:1414" ph="SELECT * FRO... category" />
-            <marker date="1607847756887" expanded="true" signature="1505:1532" ph="INSERT INTO category... " />
-            <marker date="1607847756887" expanded="true" signature="1505:1549" ph="INSERT INTO category... " />
-            <marker date="1607847756887" expanded="true" signature="1641:1673" ph="SELECT * FRO... category" />
-            <marker date="1607847756887" expanded="true" signature="1641:1674" ph="SELECT * FRO... category" />
-            <marker date="1607847756887" expanded="true" signature="1641:1684" ph="SELECT * FRO... category" />
-            <marker date="1607847756887" expanded="true" signature="1782:1814" ph="UPDATE categ... " />
-            <marker date="1607847756887" expanded="true" signature="1782:1824" ph="UPDATE categ... " />
-            <marker date="1607847756887" expanded="true" signature="1782:1825" ph="UPDATE categ... " />
-            <marker date="1607847756887" expanded="true" signature="1915:1945" ph="DELETE FROM " />
-            <marker date="1607847756887" expanded="true" signature="1915:1946" ph="DELETE FROM " />
+            <marker date="1607850629710" expanded="true" signature="502:574" ph="SELECT * FRO... v_user" />
+            <marker date="1607850629710" expanded="true" signature="662:711" ph="SELECT * FRO... v_user" />
+            <marker date="1607850629710" expanded="true" signature="812:859" ph="SELECT * FRO... user" />
+            <marker date="1607850629710" expanded="true" signature="965:1047" ph="INSERT INTO user... " />
+            <marker date="1607850629710" expanded="true" signature="1126:1144" ph="SELECT * FRO... role" />
+            <marker date="1607850629710" expanded="true" signature="1235:1257" ph="SELECT * FRO... category" />
+            <marker date="1607850629710" expanded="true" signature="1365:1406" ph="SELECT * FRO... category" />
+            <marker date="1607850629710" expanded="true" signature="1365:1414" ph="SELECT * FRO... category" />
+            <marker date="1607850629710" expanded="true" signature="1505:1532" ph="INSERT INTO category... " />
+            <marker date="1607850629710" expanded="true" signature="1505:1549" ph="INSERT INTO category... " />
+            <marker date="1607850629710" expanded="true" signature="1641:1673" ph="SELECT * FRO... category" />
+            <marker date="1607850629710" expanded="true" signature="1641:1674" ph="SELECT * FRO... category" />
+            <marker date="1607850629710" expanded="true" signature="1641:1684" ph="SELECT * FRO... category" />
+            <marker date="1607850629710" expanded="true" signature="1782:1814" ph="UPDATE categ... " />
+            <marker date="1607850629710" expanded="true" signature="1782:1824" ph="UPDATE categ... " />
+            <marker date="1607850629710" expanded="true" signature="1782:1825" ph="UPDATE categ... " />
+            <marker date="1607850629710" expanded="true" signature="1915:1945" ph="DELETE FROM " />
+            <marker date="1607850629710" expanded="true" signature="1915:1946" ph="DELETE FROM " />
+            <marker date="1607850629710" expanded="true" signature="2031:2053" ph="SELECT * FRO... duration" />
+            <marker date="1607850629710" expanded="true" signature="2155:2184" ph="SELECT * FRO... duration" />
+            <marker date="1607850629710" expanded="true" signature="2155:2198" ph="SELECT * FRO... duration" />
+            <marker date="1607850629710" expanded="true" signature="2155:2206" ph="SELECT * FRO... duration" />
+            <marker date="1607850629710" expanded="true" signature="2291:2337" ph="INSERT INTO duration... " />
+            <marker date="1607850629710" expanded="true" signature="2422:2459" ph="SELECT * FRO... duration" />
+            <marker date="1607850629710" expanded="true" signature="2422:2467" ph="SELECT * FRO... duration" />
+            <marker date="1607850629710" expanded="true" signature="2559:2603" ph="UPDATE durat... " />
+            <marker date="1607850629710" expanded="true" signature="2559:2604" ph="UPDATE durat... " />
+            <marker date="1607850629710" expanded="true" signature="2687:2717" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/CategoryService/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="1773">
+          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Pages/Administrator/Duration/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="70" lean-forward="false" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
           <folding />
         </state>
       </provider>
