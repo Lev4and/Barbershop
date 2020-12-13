@@ -85,6 +85,30 @@ class QueryExecutor
         $this->executeQuery("DELETE FROM duration WHERE id=$id");
     }
 
+    public function getServices(){
+        return $this->executeQuery("SELECT * FROM v_service");
+    }
+
+    public function containsService($name){
+        return !is_null($this->executeQuery("SELECT * FROM service WHERE name='$name' LIMIT 1")[0]);
+    }
+
+    public function addService($categoryId, $name, $description = null, $durationId, $price){
+        $this->executeQuery("INSERT INTO service (category_id, name, description, duration_id, price) VALUES ($categoryId, '$name', '$description', $durationId, $price)");
+    }
+
+    public function getService($id){
+        return $this->executeQuery("SELECT * FROM v_service WHERE id=$id")[0];
+    }
+
+    public function updateService($id, $categoryId, $name, $description = null, $durationId, $price){
+        $this->executeQuery("UPDATE service SET category_id=$categoryId, name='$name', description='$description', duration_id=$durationId, price=$price WHERE id=$id");
+    }
+
+    public function removeService($id){
+        $this->executeQuery("DELETE FROM service WHERE id=$id");
+    }
+
     private function executeQuery($query){
         try{
             return ($this->contextDb->query($query))->FETCHALL(PDO::FETCH_ASSOC);

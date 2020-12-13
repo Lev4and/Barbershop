@@ -19,6 +19,12 @@
     max-width: 50%;
     max-height: 60px;
 }
+.form-block #form-block-row-column-input-textarea{
+    width: 50%;
+    height: 180px;
+    max-width: 50%;
+    max-height: 300px;
+}
 .form-block #form-block-row-column-label{
     width: 50%;
     max-width: 50%;
@@ -38,12 +44,13 @@
     font-weight: bold;
     font-size: larger;
     font-family: Arial;
-    text-align: center;
 }
 .form-block .form-block-row-column-label,
 .form-block .form-block-row-column-input-text,
 .form-block .form-block-row-column-input-select,
-.form-block .form-block-row-column-input-password{
+.form-block .form-block-row-column-input-number,
+.form-block .form-block-row-column-input-password,
+.form-block .form-block-row-column-input-textarea{
     width: 100%;
     height: 100%;
     max-width: 100%;
@@ -51,13 +58,17 @@
 }
 .form-block .form-block-row-column-input-text,
 .form-block .form-block-row-column-input-select,
-.form-block .form-block-row-column-input-password{
+.form-block .form-block-row-column-input-number,
+.form-block .form-block-row-column-input-password,
+.form-block .form-block-row-column-input-textarea{
     overflow: hidden;
     border-radius: 10px;
     border: solid black 1px;
 }
 .form-block .form-block-row-column-input-password input[type=password],
+.form-block .form-block-row-column-input-number input[type=number],
 .form-block .form-block-row-column-input-text input[type=text],
+.form-block .form-block-row-column-input-textarea textarea,
 .form-block .form-block-row-column-input-select select{
     margin: 0;
     padding: 0;

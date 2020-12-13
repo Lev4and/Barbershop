@@ -15,7 +15,7 @@
                     <ul>
                         <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/CategoryService/"; ?>">Категории услуг</a></li>
                         <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/Duration/"; ?>">Длительность оказания услуг</a></li>
-                        <li><a href="#">Услуги</a></li>
+                        <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/Service/"; ?>">Услуги</a></li>
                         <li><a href="#">Барберы</a></li>
                     </ul>
                 </div>
