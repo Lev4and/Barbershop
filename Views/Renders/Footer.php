@@ -12,12 +12,9 @@
         </div>
         <div class="footer-middle">
             <div class="footer-middle-sections">
-                <div id="footer-middle-section-links-block" class="footer-middle-section">
-                    <div class="footer-middle-section-links">
-                        <span>Клиентам</span>
-                        <ul>
-                            <li><a href="<?php echo  "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Policy.php";  ?>">Политика конфиденциальности</a></li>
-                        </ul>
+                <div class="footer-middle-section">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2278.954654461503!2d61.397923115813825!3d55.166569480400675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c5ed4a683470f7%3A0x1c6535f5a0f0086c!2z0YPQuy4g0JrQuNGA0L7QstCwLCA4Niwg0KfQtdC70Y_QsdC40L3RgdC6LCDQp9C10LvRj9Cx0LjQvdGB0LrQsNGPINC-0LHQuy4sIDQ1NDA5MQ!5e0!3m2!1sru!2sru!4v1608144404744!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
                 <div id="footer-middle-section-contacts" class="footer-middle-section">
@@ -38,23 +35,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer-middle-section-contacts-mailing">
-                        <span>Рассылка о новостях и акциях:</span>
-                        <form id="footer-middle-section-contacts-mailing-form" class="footer-middle-section-contacts-mailing-form" method="post">
-                            <div class="footer-middle-section-contacts-mailing-form-input-container">
-                                <input class="footer-middle-section-contacts-mailing-email" placeholder="Введите email и подпшитесь">
-                            </div>
-                            <div class="footer-middle-section-contacts-mailing-form-icon-button-container">
-                                <span class="footer-middle-section-contacts-mailing-email-icon-button"><a>❯</a></span>
-                            </div>
-                        </form>
-                    </div>
                     <div class="footer-middle-section-contacts-data-block">
                         <span>Информация о филиале</span>
                         <ul>
                             <li>Телефон: +7 (919) 319-58-58</li>
                             <li>Адрес: город Челябинск, улица Кирова, дом 86</li>
                             <li>Время работы: с 10:00 до 21:00</li>
+                        </ul>
+                    </div>
+                    <div id="footer-middle-section-links-block" class="footer-middle-section-links">
+                        <span>Клиентам</span>
+                        <ul>
+                            <li><a href="<?php echo  "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Policy.php";  ?>">Политика конфиденциальности</a></li>
                         </ul>
                     </div>
                 </div>

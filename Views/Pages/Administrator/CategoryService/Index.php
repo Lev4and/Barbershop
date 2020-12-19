@@ -84,7 +84,7 @@ if(isset($_POST["action"]) && $_POST["action"] == "Сохранить") {
     }
 }
 
-if(!isset($_POST["action"]) || $_POST["action"] == "Поиск"){
+if(!isset($_POST["action"])){
     $categoriesService = QueryExecutor::getInstance()->getCategoriesService();
 
     $_SESSION["params"] = array();

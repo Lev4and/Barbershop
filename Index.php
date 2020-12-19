@@ -85,6 +85,30 @@ if(isset($_POST["action"]) && $_POST["action"] == "Зарегистрирова�
     }
 }
 
+if(isset($_POST["action"]) && $_POST["action"] == "Записаться"){
+    if(isset($_POST["serviceId"]) && isset($_POST["barberId"]) && isset($_POST["appointmentDate"]) && iconv_strlen($_POST["appointmentDate"], "UTF-8") > 0){
+        QueryExecutor::getInstance()->addReception($_SESSION["user"]["id"], $_POST["serviceId"], $_POST["barberId"], $_POST["appointmentDate"]);
+
+        $_SESSION["error"] = "Вы записались на стрижку.";
+    }
+    else{
+        $_SESSION["error"] = "Вы указали неверные данные.";
+
+        $_SESSION["params"]["signUp"] = array();
+        $_SESSION["params"]["signUp"] = $_POST;
+
+        header("Location: /Views/Pages/SignUp.php");
+        exit();
+    }
+}
+
+if(isset($_GET["action"]) && $_GET["action"] == "Отменить"){
+    QueryExecutor::getInstance()->removeReception($_GET["receptionId"]);
+
+    header("Location: /Views/Pages/MyNotes.php");
+    exit();
+}
+
 if(isset($_POST["action"]) && $_POST["action"] == "Выход"){
     $_SESSION["user"] = array();
 }

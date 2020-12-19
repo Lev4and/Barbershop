@@ -47,6 +47,7 @@
 }
 .form-block .form-block-row-column-label,
 .form-block .form-block-row-column-input-text,
+.form-block .form-block-row-column-input-datetime-local,
 .form-block .form-block-row-column-input-select,
 .form-block .form-block-row-column-input-number,
 .form-block .form-block-row-column-input-password,
@@ -57,6 +58,7 @@
     max-height: 100%;
 }
 .form-block .form-block-row-column-input-text,
+.form-block .form-block-row-column-input-datetime-local,
 .form-block .form-block-row-column-input-select,
 .form-block .form-block-row-column-input-number,
 .form-block .form-block-row-column-input-password,
@@ -68,6 +70,7 @@
 .form-block .form-block-row-column-input-password input[type=password],
 .form-block .form-block-row-column-input-number input[type=number],
 .form-block .form-block-row-column-input-text input[type=text],
+.form-block .form-block-row-column-input-datetime-local input[type=datetime-local],
 .form-block .form-block-row-column-input-textarea textarea,
 .form-block .form-block-row-column-input-select select{
     margin: 0;

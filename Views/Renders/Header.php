@@ -16,18 +16,21 @@
                         <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/CategoryService/"; ?>">Категории услуг</a></li>
                         <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/Duration/"; ?>">Длительность оказания услуг</a></li>
                         <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/Service/"; ?>">Услуги</a></li>
-                        <li><a href="#">Барберы</a></li>
+                        <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Administrator/Barber/"; ?>">Барберы</a></li>
                     </ul>
                 </div>
             <?php else: ?>
                 <div class="header-content-section">
-                    <a href="#"><b>Барберы</b></a>
+                    <a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/Barbers.php"; ?>"><b>Барберы</b></a>
                 </div>
                 <div class="header-content-section">
-                    <a href="#"><b>Услуги</b></a>
+                    <a href="#ourWorks"><b>Наши работы</b></a>
                 </div>
                 <div class="header-content-section">
-                    <a href="#"><b>Записаться</b></a>
+                    <a href="#services"><b>Услуги</b></a>
+                </div>
+                <div class="header-content-section">
+                    <a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/SignUp.php"; ?>"><b>Записаться</b></a>
                 </div>
                 <div class="header-content-section">
                     <a href="#contacts"><b>Контакты</b></a>
@@ -49,9 +52,8 @@
                     </div>
                     <ul>
                         <?php if(Access::isClient()): ?>
-                            <li><a href="#">Мои записи</a></li>
+                            <li><a href="<?php echo "http://" . $_SERVER["SERVER_NAME"] . "/Views/Pages/MyNotes.php"; ?>">Мои записи</a></li>
                         <?php endif; ?>
-                        <li><a href="#">Профиль</a></li>
                         <li onclick="onClickExit();"><a href="#">Выход</a></li>
                     </ul>
                 </div>

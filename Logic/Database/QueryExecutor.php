@@ -109,6 +109,47 @@ class QueryExecutor
         $this->executeQuery("DELETE FROM service WHERE id=$id");
     }
 
+    public function getExperiences(){
+        return $this->executeQuery("SELECT * FROM experience");
+    }
+
+    public function getLevels(){
+        return $this->executeQuery("SELECT * FROM level");
+    }
+
+    public function getBarbers(){
+        return $this->executeQuery("SELECT * FROM v_barber");
+    }
+
+    public function addBarber($fullName, $photo, $levelId, $experienceId){
+        $this->executeQuery("INSERT INTO barber (full_name, photo, level_id, experience_id) VALUES ('$fullName', '$photo', $levelId, $experienceId)");
+    }
+
+    public function getBarber($id){
+        return $this->executeQuery("SELECT * FROM v_barber WHERE id=$id LIMIT 1")[0];
+    }
+
+    public function updateBarber($id, $fullName, $photo, $levelId, $experienceId){
+        $this->executeQuery("UPDATE barber SET full_name='$fullName', photo='$photo', level_id=$levelId, experience_id=$experienceId WHERE id=$id");
+    }
+
+    public function removeBarber($id){
+        $this->executeQuery("DELETE FROM barber WHERE id=$id");
+    }
+
+    public function addReception($userId, $barberId, $serviceId, $appointmentDate){
+        $date = date("Y-m-d H:i:s");
+        $this->executeQuery("INSERT INTO reception (user_id, barber_id, service_id, date_of_creation, appointment_date) VALUES ($userId, $barberId, $serviceId, '$date', '$appointmentDate')");
+    }
+
+    public function getMyNotes($userId){
+        return $this->executeQuery("SELECT * FROM v_reception WHERE user_id=$userId");
+    }
+
+    public function removeReception($id){
+        $this->executeQuery("DELETE FROM reception WHERE id=$id");
+    }
+
     private function executeQuery($query){
         try{
             return ($this->contextDb->query($query))->FETCHALL(PDO::FETCH_ASSOC);

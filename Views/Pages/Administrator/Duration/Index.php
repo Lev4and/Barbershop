@@ -84,7 +84,7 @@ if(isset($_POST["action"]) && $_POST["action"] == "Сохранить") {
     }
 }
 
-if(!isset($_POST["action"]) || $_POST["action"] == "Поиск"){
+if(!isset($_POST["action"])){
     $durations = QueryExecutor::getInstance()->getDurations();
 
     $_SESSION["params"] = array();

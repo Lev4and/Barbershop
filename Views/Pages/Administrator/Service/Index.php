@@ -84,7 +84,7 @@ if(isset($_POST["action"]) && $_POST["action"] == "Сохранить") {
     }
 }
 
-if(!isset($_POST["action"]) || $_POST["action"] == "Поиск"){
+if(!isset($_POST["action"])){
     $services = QueryExecutor::getInstance()->getServices();
 
     $_SESSION["params"] = array();

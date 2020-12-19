@@ -3,7 +3,7 @@
     height: 450px;
     font-size: larger;
     font-family: Arial;
-    background-color: #333333;
+    background-color: black;
 }
 .footer .footer-content{
     height: 100%;
@@ -62,7 +62,7 @@
     height: 350px;
     max-width: 100%;
     max-height: 350px;
-    border: solid black;
+    border: solid white;
     border-width: 1px 0 1px 0;
 }
 .footer .footer-content .footer-middle .footer-middle-sections{
@@ -73,7 +73,7 @@
     justify-content: space-between;
 }
 .footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section{
-    width: 50%;
+    width: 60%;
     height: 100%;
     display: flex;
     max-height: 100%;
@@ -103,8 +103,10 @@
     text-decoration-line: underline;
 }
 .footer .footer-content .footer-middle .footer-middle-sections #footer-middle-section-contacts{
+    width: 40%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .footer .footer-content .footer-middle .footer-middle-sections #footer-middle-section-contacts .footer-middle-section-contacts-links-block{
     width: 100%;
@@ -141,55 +143,13 @@
     max-width: 100%;
     max-height: 100%;
 }
-.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .footer-middle-section-contacts-mailing .footer-middle-section-contacts-mailing-form{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    margin: 10px 0;
-    flex-direction: row;
-    justify-content: space-between;
+.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .map{
+    width: 95%;
+    height: 100%;
 }
-.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .footer-middle-section-contacts-mailing .footer-middle-section-contacts-mailing-form .footer-middle-section-contacts-mailing-form-input-container{
+.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .map iframe{
     width: 100%;
     height: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    border-radius: 10px;
-    border: solid black 1px;
-}
-.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .footer-middle-section-contacts-mailing .footer-middle-section-contacts-mailing-form .footer-middle-section-contacts-mailing-form-input-container input{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    color: black;
-    border: none;
-    font-weight: bold;
-    font-size: larger;
-    font-family: Arial;
-}
-.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .footer-middle-section-contacts-mailing .footer-middle-section-contacts-mailing-form .footer-middle-section-contacts-mailing-form-icon-button-container{
-    height: 100%;
-    display: flex;
-    margin: 0 10px;
-    max-height: 100%;
-    vertical-align: middle;
-}
-.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .footer-middle-section-contacts-mailing .footer-middle-section-contacts-mailing-form .footer-middle-section-contacts-mailing-form-icon-button-container span{
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    font-weight: bold;
-    font-size: larger;
-    font-family: Arial;
-}
-.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .footer-middle-section-contacts-mailing .footer-middle-section-contacts-mailing-form .footer-middle-section-contacts-mailing-form-icon-button-container span a{
-    color: white;
-    text-decoration: none;
-}
-.footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .footer-middle-section-contacts-mailing .footer-middle-section-contacts-mailing-form .footer-middle-section-contacts-mailing-form-icon-button-container span:hover > a{
-    color: red;
 }
 .footer .footer-content .footer-middle .footer-middle-sections .footer-middle-section .footer-middle-section-contacts-data-block ul{
     margin: 0;
